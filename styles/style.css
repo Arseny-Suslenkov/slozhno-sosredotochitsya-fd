@@ -89,12 +89,12 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--text-accent-color);
+  outline: 1px solid var(--text-accent-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  outline: 1px solid rgba(255, 0, 112, 0.4);
   cursor: pointer;
 }
 
@@ -167,7 +167,7 @@
 
 .text-link:focus-visible {
   outline: none;
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .article__subtitle {

@@ -30,7 +30,7 @@
 }
 
 :root.theme-light .header__theme-menu-button:hover {
-  border: 1px solid rgba(53, 52, 48, 0.4);
+  outline: 1px solid rgba(53, 52, 48, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -55,7 +55,7 @@
     }
 
     .header__theme-menu-button:hover {
-      border: 1px solid rgba(53, 52, 48, 0.4);
+      outline: 1px solid rgba(53, 52, 48, 0.4);
     }
   }
 }
