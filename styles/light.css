@@ -17,7 +17,6 @@
   --text-accent-color: var(--text-color);
 }
 
-
 :root.theme-light .header__decoration {
   opacity: 0;
 }
@@ -43,22 +42,20 @@
     --header-title: rgb(255, 194, 230);
     --text-accent-color: var(--text-color);
 
-  
-.header__decoration {
-  opacity: 0;
-}
+    .header__decoration {
+      opacity: 0;
+    }
 
-.header__decoration::before {
-  opacity: 0;
-}
+    .header__decoration::before {
+      opacity: 0;
+    }
 
-.title-decor {
-  color: var(--text-accent-color);
-}
+    .title-decor {
+      color: var(--text-accent-color);
+    }
 
-.header__theme-menu-button:hover {
-  border: 1px solid rgba(53, 52, 48, 0.4);
+    .header__theme-menu-button:hover {
+      border: 1px solid rgba(53, 52, 48, 0.4);
+    }
+  }
 }
-}
-}
-
