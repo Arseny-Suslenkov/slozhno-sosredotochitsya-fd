@@ -50,10 +50,7 @@
           </li>
         </ul>
       </nav>
-      <h1 class="header__heading">
-        <span class="header__heading-word">no</span>
-        <span class="header__heading-word">focus</span>
-      </h1>
+      <h1 class="header__heading">no focus</h1>
       <p class="header__title title-decor">
         Что делать, когда не можешь делать ничего <br />Или почему нам так
         сложно сконцентрироваться, особенно когда очень надо
@@ -97,9 +94,9 @@
       </section>
       <section class="section section-what">
         <h2 class="section__title section-what__title">
-          Что снижает концентрацию <br />внимания?
+          Что снижает концентрацию внимания?
         </h2>
-        <article class="section__article section-what__article">
+        <article class="section__article">
           <h3 class="article__title title-decor">Концентрация</h3>
           <p class="article-description">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -110,7 +107,7 @@
             не давать ей отдохнуть.
           </p>
         </article>
-        <article class="section__article section-what__article">
+        <article class="section__article">
           <h3 class="article__title title-decor">Еда</h3>
           <p class="article-description">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -121,7 +118,7 @@
             больше быстрых углеводов.
           </p>
         </article>
-        <article class="section__article section-what__article">
+        <article class="section__article">
           <h3 class="article__title title-decor">Гаджеты</h3>
           <p class="article-description">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -139,7 +136,7 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article class="section__article advices__article">
+        <article class="section__article">
           <h3 class="article__title title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -209,39 +206,51 @@
       </section>
       <section class="section gallery">
         <h2 class="gallery__title title-decor">А можно в картинках?</h2>
-        <img
-          class="gallery__image image-sunset"
-          alt="Солнце встаёт из-за гор, в небе облака и несколько птиц"
-          src="./images/sunset.png"
-          loading="lazy"
-        />
-        <img
-          class="gallery__image image-ice-cream"
-          alt="Шарики мороженного в чашке, украшены зонтиком, вафельными трубочками и фруктами, на чашке и шариках эмодзи"
-          src="./images/ice-cream.png"
-          loading="lazy"
-        />
-        <img
-          class="gallery__image image-tape"
-          alt="Аудиокассета, окружённая различными компьютерными символами: указателем мыши, ярлыком папки, значком песочные часы и прочим"
-          src="./images/tape.png"
-          loading="lazy"
-        />
-        <img
-          class="gallery__image image-books"
-          alt="Стопка книг, на которой стоит кружка"
-          src="./images/books.png"
-          loading="lazy"
-        />
-        <img
-          class="gallery__image image-street"
-          alt="Узкая улица, по обе стороны которой разположены двухэтажные дома. На фасаде одного из них нарисовано дерево. Улица ведёт к Т-образному перекрёстку, ограниченному стеной, за которой видно дерево и кусты. Вдали видны многоэтажки."
-          src="./images/street.png"
-          loading="lazy"
-        />
+        <ul class="gallery__list">
+          <li class="gallery__list-item image-sunset">
+            <img
+              class="gallery__image"
+              alt="Солнце встаёт из-за гор, в небе облака и несколько птиц"
+              src="./images/sunset.png"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item image-ice-cream">
+            <img
+              class="gallery__image"
+              alt="Шарики мороженного в чашке, украшены зонтиком, вафельными трубочками и фруктами, на чашке и шариках эмодзи"
+              src="./images/ice-cream.png"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item image-tape">
+            <img
+              class="gallery__image"
+              alt="Аудиокассета, окружённая различными компьютерными символами: указателем мыши, ярлыком папки, значком песочные часы и прочим"
+              src="./images/tape.png"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item image-books">
+            <img
+              class="gallery__image"
+              alt="Стопка книг, на которой стоит кружка"
+              src="./images/books.png"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item image-street">
+            <img
+              class="gallery__image"
+              alt="Узкая улица, по обе стороны которой разположены двухэтажные дома. На фасаде одного из них нарисовано дерево. Улица ведёт к Т-образному перекрёстку, ограниченному стеной, за которой видно дерево и кусты. Вдали видны многоэтажки."
+              src="./images/street.png"
+              loading="lazy"
+            />
+          </li>
+        </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <h3 class="footer__title">focus</h3>
     </footer>
   </body>
